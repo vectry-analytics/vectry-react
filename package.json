@@ -1,0 +1,34 @@
+{
+  "name": "@vectry/react",
+  "version": "0.1.0",
+  "description": "React integration for Vectry Analytics. Includes Context, Hooks, and transport for browser-based event tracking.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "lint": "eslint . --ext .ts,.tsx",
+    "format": "prettier --write ."
+  },
+  "keywords": [
+    "vectry",
+    "react",
+    "analytics",
+    "event",
+    "tracking",
+    "sdk"
+  ],
+  "author": "Vectry Analytics",
+  "license": "MIT",
+  "dependencies": {
+    "@vectry/js-core": "1.0.0",
+    "axios": "^1.8.4"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.2",
+    "tsup": "^8.4.0",
+    "eslint": "^9.23.0",
+    "prettier": "^3.5.3",
+    "@types/react": "^19.1.0"
+  }
+}
