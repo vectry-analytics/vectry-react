@@ -21,7 +21,7 @@
   "author": "Vectry Analytics",
   "license": "MIT",
   "dependencies": {
-    "@vectry/js-core": "1.0.0",
+    "@vectry/js-core": "1.0.5",
     "axios": "^1.8.4"
   },
   "devDependencies": {
